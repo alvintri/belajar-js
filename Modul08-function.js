@@ -37,7 +37,7 @@ function sayHello(){
         return `${this.firstName} ${this.lastName}`
     }
     this.showName = function(){
-        document.write(this.fullName());
+        //document.write(this.fullName());
     }
 }
 
@@ -45,5 +45,4 @@ var person1 = new Person("Muhar", "Dian");
 var person2 = new Person("Petani", "Kode");
 
 person1.showName();
-document.write("<br>");
 person2.showName();

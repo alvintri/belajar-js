@@ -24,6 +24,10 @@ for(let i=0;i<mobil.length;i++){
     console.log('Cetak mobil ke-' + i + ": " + mobil[i])
 }
 
+for(let j in mobil){
+    console.log('Cetak mobil ke-' + j + ": " + mobil[j])
+}
+
 //Melakukan delete salah satu element pada Array mobil
 delete mobil[3]
 //mobil.pop()
